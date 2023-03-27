@@ -2,7 +2,7 @@
 ## Problem Statements
 1) Write down VHDL Code (Entity declaration + Architecture) to implement the behavior described by the 4-input minterm list shown below. Use concurrent signal assignment (of your choice) and "Case-When" statements for implementation. Declare your entity to match the block diagram provided. Use the type std_logic for your ports. The mintems are:
 
-<img src = "Diagrams/Minterms Truth Table.png" width = 700>
+<img src = "Diagrams/Minterms Truth Table.png" width = 400>
 
 2) Implement an 8:1 MUX (MUX = Multiplexer) using concurrent signal assignment. Declare the entity and architecture for the 8:1 MUX using "With Select" and "When Else". Make a testbench and simulate the system to verify the working of MUX. (For those getting the error “Isim error 861: Failed to link the design”, can leave the simulation, but still write the testbench code.) 
 
