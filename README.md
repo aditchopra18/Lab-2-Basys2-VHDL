@@ -2,14 +2,14 @@
 ## Problem Statements
 1) Write down VHDL Code (Entity declaration + Architecture) to implement the behavior described by the 4-input minterm list shown below. Use concurrent signal assignment (of your choice) and "Case-When" statements for implementation. Declare your entity to match the block diagram provided. Use the type std_logic for your ports. The mintems are:
 
-<>
+<img src = "Diagrams/Minterms Truth Table.png" width = 700>
 
 2) Implement an 8:1 MUX (MUX = Multiplexer) using concurrent signal assignment. Declare the entity and architecture for the 8:1 MUX using "With Select" and "When Else". Make a testbench and simulate the system to verify the working of MUX. (For those getting the error “Isim error 861: Failed to link the design”, can leave the simulation, but still write the testbench code.) 
 
-Q: What VHDL programming difference in architecture you have seen between Case statements and the With-Select/When-Else statements?\
+Q: What VHDL programming difference in architecture you have seen between Case statements and the With-Select/When-Else statements?
 - Case statement:\
 Each line assigns to a signal, which is more redundant.\
-It must specify all cases and is slower.\
+It must specify all cases and is slower.
 
 - With-Select/When-Else statement:\
 It is Conditional. The statement only executes if the statement is true or false, thus, is less redundant.\
