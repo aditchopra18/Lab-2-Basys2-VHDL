@@ -1,0 +1,16 @@
+NET "A0"  LOC = "N3";
+NET "A1"  LOC = "E2";
+NET "A2"  LOC = "F3";
+NET "A3"  LOC = "G3";
+NET "B0"  LOC = "B4";
+NET "B1"  LOC = "K3";
+NET "B2"  LOC = "L3";
+NET "B3"  LOC = "P11";
+
+
+
+NET "S0"  LOC = "P6";
+NET "S1"  LOC = "P7";
+NET "S2"  LOC = "M11";
+NET "S3"  LOC = "M5";
+NET "Cout"  LOC = "G1";

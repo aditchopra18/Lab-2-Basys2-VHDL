@@ -1,0 +1,14 @@
+NET "SEL[0]"  LOC = "G12";
+NET "SEL[1]"  LOC = "C11";
+NET "SEL[2]"  LOC = "M4";
+
+NET "MUX_out"  LOC = "M5";
+
+NET "A"  LOC = "N3";
+NET "B"  LOC = "E2";
+NET "C"  LOC = "F3";
+NET "D"  LOC = "G3";
+NET "E"  LOC = "P4";
+NET "F"  LOC = "K3";
+NET "G"  LOC = "L3";
+NET "H"  LOC = "P11";
